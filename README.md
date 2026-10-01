@@ -4,7 +4,13 @@ A handmade analog drone synthesizer, designed and built by [Los Aparatos](https:
 
 ## What is it?
 
-CoyuyoC is an analog drone synth — a fully analog circuit built for continuous, evolving textures rather than conventional melodic playing. No microcontroller, no code.
+CoyuyoC is an analog drone synth — a fully analog circuit built for continuous, evolving textures rather than conventional melodic playing. No microcontroller, no code. A handmade analog drone synthesizer from Tucumán, Argentina, based on an original drawing by artist Verónica Corrales.
+
+## How it works
+
+CoyuyoC is built around a single 556 dual timer IC (two 555 timers in one chip), configured as two independent oscillators: an LFO and a VCO. Each has its own independent audio output per channel, but depending on the switch positions, the VCO can be controlled by the LFO — either directly or through a photoresistor (LDR).
+
+The waveform isn't a standard square wave: instead, it's taken from the charge/discharge curve of each oscillator's associated capacitor, buffered through a pair of transistors in a unity-gain amplifier configuration. Each potentiometer — the "wings" — controls the rising or falling ramp of its oscillator, shaping a waveform similar to a "shark fin." It has a Voltage Controlled Input.
 
 ## Repository contents
 
