@@ -1,5 +1,5 @@
 # CoyuyoC
-
+![CoyuyoC(images/coyuyoc_cuadrado.png)]
 A handmade analog drone synthesizer, designed and built by [Los Aparatos](https://losaparatos.com.ar) in Tucumán, Argentina.
 
 ## What is it?
